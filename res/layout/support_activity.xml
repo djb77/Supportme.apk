@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+<LinearLayout      
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Greeting"
+    android:textSize="@dimen/Textsize"
+    android:textStyle="italic"
+    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+    android:textDirection="firstStrong"/>
+
+<Button 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dip"
+    android:text="@string/Button1"
+    android:id="@+id/button1"/>
+
+<Button 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dip"
+    android:text="@string/Button2"
+    android:id="@+id/button2"/>
+
+<Button 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dip"
+    android:text="@string/Button3"
+    android:id="@+id/button3"/>
+
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/doubttext"/>
+
+<Button 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dip"
+    android:text="@string/Button4"
+    android:id="@+id/button4"/>
+
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="60dip"
+    android:src="@drawable/paypal_icon"
+    android:layout_margin="8dip"
+    android:contentDescription="@string/app_name"/>
+</LinearLayout>
+</ScrollView>
